@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    load_env (0.1.1)
+    load_env (0.1.2)
+      dotenv (~> 2.7.5)
 
 GEM
   remote: https://rubygems.org/
@@ -28,7 +29,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 2.0)
-  dotenv (~> 2.7.5)
   load_env!
   rake (~> 10.0)
   rspec (~> 3.0)
